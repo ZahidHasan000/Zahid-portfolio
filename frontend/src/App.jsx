@@ -1,0 +1,63 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Project from './components/Project';
+import Contact from './components/Contact';
+import Map from './components/Map';
+import UploadProject from './components/UploadProject';
+import Profile from './components/Profile';
+
+
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* <Route path="/home" element={<Home2 />} /> */}
+        {/* <Route path="/" element={<NavBar />} /> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/map" element={<Map />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/upload-project" element={<UploadProject />} />
+        {/* Add more routes as needed */}
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+
+
+
+// import React from 'react';
+// import ThreeDBackground from './3dbg';
+
+// const App = () => {
+//   return (
+//     <div>
+//       <ThreeDBackground />
+//       {/* Your other components go here */}
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+
+// import './App.css'
+
+// function App() {
+
+//   return (
+//     <>
+//       <h1 className='text-xl font-bold'>Hello zahid</h1>
+//     </>
+//   )
+// }
+
+// export default App

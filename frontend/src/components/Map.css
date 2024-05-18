@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .mapbox .area {
+    height: 50vh; /* Adjust the height for mobile devices */
+    width: 80vw; /* Adjust the width for mobile devices */
+  }
+}
