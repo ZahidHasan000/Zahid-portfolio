@@ -12,7 +12,7 @@ function Project() {
     const [projects, setProjects] = useState([]);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [projectsPerPage] = useState(18); // Number of projects per page
+    const [projectsPerPage] = useState(12); // Number of projects per page
 
     const indexOfLastProject = currentPage * projectsPerPage;
     const indexOfFirstProject = indexOfLastProject - projectsPerPage;
@@ -46,7 +46,7 @@ function Project() {
 
                             {/* {projects.map((item, index) => ( */}
 
-                            {currentProjects.map((item, index) => (
+                            {currentProjects.slice().reverse().map((item, index) => (
                                 <div key={index}>
 
                                     <a href={item.link} target="_blank" rel="noopener noreferrer">

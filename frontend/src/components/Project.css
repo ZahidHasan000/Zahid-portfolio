@@ -15,7 +15,7 @@ html {
 
 .custom-image {
   width: 200px;
-  height: 150px;
+  height: 200px;
 }
 
 /* CSS */
@@ -35,7 +35,7 @@ html {
   color: white;
   padding: 5px 5px;
   /* border-radius: 10px; */
-  border-radius: 50%;
+  border-radius: 40%;
   text-align: center;
 }
 
