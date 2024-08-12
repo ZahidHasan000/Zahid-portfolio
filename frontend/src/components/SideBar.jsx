@@ -9,7 +9,7 @@ function Sidebar() {
         <li className="twitter p-2 w-9 hover:bg-blue-500 cursor-pointer"><a href="https://twitter.com/Zahid1751403060"><i className="fab fa-twitter"></i></a></li>
         <li className="facebook p-2 w-9 hover:bg-blue-500 cursor-pointer"><a href="https://www.facebook.com/profile.php?id=100006849996705"><i className="fab fa-facebook"></i></a></li>
         <li className="linkedin p-2 w-9 hover:bg-blue-700 cursor-pointer"><a href="https://www.linkedin.com/in/md-zahid-hasan-6ba380117/"><i className="fab fa-linkedin"></i></a></li>
-        <li className="whatsapp p-2 w-9 hover:bg-green-500 cursor-pointer"><a href="https://wa.me/+8801521463943"><i className="fab fa-whatsapp"></i></a></li>
+        <li className="whatsapp p-2 w-9 hover:bg-green-500 cursor-pointer"><a href="https://wa.me/+8801751403060"><i className="fab fa-whatsapp"></i></a></li>
         {/* Add more links as needed */}
       </ul>
     </div>

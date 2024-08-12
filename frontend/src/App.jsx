@@ -33,31 +33,3 @@ export default App;
 
 
 
-// import React from 'react';
-// import ThreeDBackground from './3dbg';
-
-// const App = () => {
-//   return (
-//     <div>
-//       <ThreeDBackground />
-//       {/* Your other components go here */}
-//     </div>
-//   );
-// };
-
-// export default App;
-
-
-
-// import './App.css'
-
-// function App() {
-
-//   return (
-//     <>
-//       <h1 className='text-xl font-bold'>Hello zahid</h1>
-//     </>
-//   )
-// }
-
-// export default App

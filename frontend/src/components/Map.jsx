@@ -14,7 +14,7 @@ const markers = [
   {
     id: 1,
     name: "DIT project,Badda",
-    position: { lat: 23.77307486090916, lng: 90.4270543616169 },
+    position: { lat: 23.773663, lng: 90.428773 },
   }
 ];
 
@@ -41,7 +41,7 @@ function Map() {
         <div className="area" style={{ height: isMobile ? '30vh' : '100vh', width: isMobile ? '96vw' : '37vw' }}>
           {isLoaded ? (
             <GoogleMap
-              center={{ lat: 23.77307486090916, lng: 90.4270543616169 }}
+              center={{ lat: 23.773663, lng: 90.428773 }}
               zoom={15}
               onClick={() => setActiveMarker(null)}
               mapContainerStyle={{ width: "100%", height: "100%" }}

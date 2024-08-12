@@ -137,22 +137,6 @@ exports.updateProjectById = async (req, res) => {
 };
 
 
-// // Controller function to delete a project by ID
-// exports.deleteProjectById = async (req, res) => {
-//   try {
-//     const { projectId } = req.params;
-//     const deletedProject = await Project.findByIdAndDelete(projectId);
-//     if (!deletedProject) {
-//       return res.status(404).json({ success: false, message: 'Project not found' });
-//     }
-//     res.status(200).json({ success: true, message: 'Project deleted successfully' });
-//   } catch (error) {
-//     console.error('Error deleting project:', error);
-//     res.status(500).json({ success: false, message: 'Internal server error' });
-//   }
-// };
-
-
 // Controller function to delete a project by ID
 exports.deleteProjectById = async (req, res) => {
   try {
