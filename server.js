@@ -8,6 +8,8 @@ const mongoSanitize = require('express-mongo-sanitize');
 const cors = require('cors'); // Import cors package
 const helmet = require('helmet')
 
+const path = require('path');
+
 const projectRouter = require('./route/projectRoute.route');
 
 const limiter = rateLimit({
@@ -22,6 +24,7 @@ const app = express();
 app.use(cors({
   origin: 'http://localhost:5173' // Allow requests only from this origin
 }));
+
 
 // app.use(express.json({ limit: '10kb' }));
 app.use(express.json({ limit: '100kb' }));
@@ -63,6 +66,14 @@ app.use((err, req, res, next) => {
 });
 
 app.use(express.static('public'));
+
+//Serving static files
+app.use(express.static(path.join(__dirname, '/frontend/dist')));
+
+//render e-comerce-frontend for any path
+app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/frontend/dist/index.html')))
+
+
 
 const DB = process.env.DATABASE_PASSWORD;
 mongoose

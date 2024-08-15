@@ -25,6 +25,8 @@ function About() {
                         </div>
                         <div className="skill mt-14 sm:mt-16 pt-14 sm:pt-16 text-center">
                             <Skill />
+
+                            <p>ghsdfkhhkkjh</p>
                         </div>
                     </div>
                 </div>
