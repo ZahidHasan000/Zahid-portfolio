@@ -12,17 +12,6 @@ html {
   height: 100%;
 }
 
-/* Ensure Skill component is above the background image */
-/* .skill-container {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  height: 100%;
-  overflow: auto;
-} */
-
 /* About.css */
 
 .about-2 {
@@ -74,9 +63,6 @@ html {
   position: relative;
   top: 0;
   left: 10%;
-  /* z-index: 1; */
-  /* height: 100%; */
-  /* overflow: auto; */
 }
 
 /* Adjust styles for smaller screens */
