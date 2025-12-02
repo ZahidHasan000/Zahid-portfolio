@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./Skill.css";
 
 // Importing TagCloud package
-import TagCloud from "Tagcloud";
+import TagCloud from "TagCloud";
 
 const Skill = () => {
   // Animation settings for Text Cloud

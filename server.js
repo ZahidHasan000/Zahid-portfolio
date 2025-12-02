@@ -68,10 +68,12 @@ app.use((err, req, res, next) => {
 app.use(express.static('public'));
 
 //Serving static files
-app.use(express.static(path.join(__dirname, '/frontend/dist')));
+// app.use(express.static(path.join(__dirname, '/frontend/dist')));
+app.use(express.static(path.join(__dirname, '/frontend/src')));
 
 //render e-comerce-frontend for any path
-app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/frontend/dist/index.html')))
+// app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/frontend/dist/index.html')))
+app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/frontend/src/index.html')))
 
 
 
